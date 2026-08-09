@@ -73,7 +73,7 @@ Detailed VLAN and switch notes are in [vlan-design.md](vlan-design.md).
 | Netgear GS308EP | VLAN-aware Layer 2 switching and trunk/access port assignment |
 | TP-Link ER7206 | Upstream edge router providing transit toward the internet |
 | TP-Link AX1800 | Wireless AP in AP-only mode for GUEST and IOT SSIDs |
-| Raspberry Pi 5 | AdGuard Home DNS and Tailscale subnet access |
+| Raspberry Pi 5 | Proxmox cluster QDevice (quorum tiebreaker), Tailscale jumpbox, network diagnostics |
 
 Each component has a defined role, which helps avoid overlapping services and unclear control boundaries.
 That makes troubleshooting cleaner and better reflects how production networks are typically structured.
