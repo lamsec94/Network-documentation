@@ -11,6 +11,9 @@ constraints that support the broader Windows, Linux, virtualization, and securit
 
 ## Architecture Overview
 
+![Network Architecture](images/HOMELAB-NETWORK-ARCHITECTURE.png)
+
+
 The network is designed around a single internal routing and security boundary, with OPNsense
 acting as the primary firewall, inter-VLAN router, and NAT point for all internal segments.
 Rather than treating the lab as a flat network, the design separates management, server,
