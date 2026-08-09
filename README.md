@@ -69,7 +69,7 @@ Detailed VLAN and switch notes are in [vlan-design.md](vlan-design.md).
 
 | Component | Role |
 |---|---|
-| OPNsense | Primary firewall, inter-VLAN routing, DHCP, IDS/IPS boundary |
+| OPNsense | Primary firewall, inter-VLAN routing, DHCP, Suricata IDS on LAB |
 | Netgear GS308EP | VLAN-aware Layer 2 switching and trunk/access port assignment |
 | TP-Link ER7206 | Upstream edge router providing transit toward the internet |
 | TP-Link AX1800 | Wireless AP in AP-only mode for GUEST and IOT SSIDs |
